@@ -1,3 +1,12 @@
+/*Given a sorted array of integers and a target average,
+determine if there is a pair of values in the array where the average of the pair equals the target average.
+There may be more than one pair that matches the average target, but we just want the first pair.
+
+Example: If the given array is [1, 2, 3] and the target average is 2,
+then we want the algorithm to return true. This is because the average of 1 and 2 is 2.
+But if none of the numbers in the array can create the target average of 2, then return false.
+*/
+
 function averagePair(arr, avg){
     let left = 0;
     let right = arr.length-1;
