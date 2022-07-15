@@ -8,4 +8,4 @@ function capitalizeFirst(array){
     return res;
 }
 
-console.log(capitalizeFirst(['cat', 'dog']));
+console.log(capitalizeFirst(['cat', 'dog', 'human', 'tiger']));
