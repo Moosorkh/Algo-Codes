@@ -1,3 +1,4 @@
+// this function looks for all the non-repeated continuous characters in a string
 function findLongestSubstring(str){
     let start = 0;
     let map = {};
@@ -14,4 +15,4 @@ function findLongestSubstring(str){
 }
 
 console.log(findLongestSubstring("string")); // returns 6 since none of the contigous characters are repeated.
-console.log(findLongestSubstring("text")); // returns 3 since there are only 3 non-repeated contigous characters
+console.log(findLongestSubstring("text")); // returns 3 since there are only 3 non-repeated contiguous characters

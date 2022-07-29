@@ -1,3 +1,5 @@
+// minSubArray accepts an array of numbers and a number, 
+// then returns the minimum number of array elements that their sum wouls equal to the passed number
 function minSubArrayLen(arr, num){
     let start = 0;
     let end = 0;

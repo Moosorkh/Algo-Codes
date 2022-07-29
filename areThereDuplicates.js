@@ -1,3 +1,5 @@
+// areThereDuplicates looks in an array of numbers and looks for duplicates in the array
+
 function areThereDuplicates(arr){
     arr = arr.sort()
     if(arr.length === 0) return 0;

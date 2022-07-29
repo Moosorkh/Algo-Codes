@@ -10,4 +10,4 @@ function naiveSearch(long, short){
     return count;
 }
 
-console.log(naiveSearch("ojojo rabbit", "jojo"));
+console.log(naiveSearch("jojo rabbit", "jojo")); // returns 1 jojo appears once in the "jojo rabbit"

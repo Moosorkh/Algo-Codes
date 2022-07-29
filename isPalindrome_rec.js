@@ -1,4 +1,5 @@
 // isPalindrome using recursive function
+// a palindrome word is one that can read the same if reversed example: tacocat
 
 function isPalindrome(str){
     if(str.length === 1)return true;

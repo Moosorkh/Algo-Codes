@@ -1,4 +1,4 @@
-
+// a palindrome number is a number that is still the same number, if reversed
 // isPalindrome for numbers
 function isPalindrome(x){
     if(x < 0 || (x % 10 === 0 && x !==0))return false; 

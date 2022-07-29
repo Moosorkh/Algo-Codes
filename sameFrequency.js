@@ -1,3 +1,6 @@
+// With the sameFrequency function, given two positive integers,
+// it finds out if the two numbers have the same frequency of digits
+
 function sameFrequency(num, num2){
 let arr = [];
 let arr2 = [];
@@ -32,4 +35,6 @@ for(let i = 0; i < arr2.length; i++){
   return true;
 }  
 
-
+console.log(sameFrequency(123456, 654321));// returns true the numbers passed have the same frequency of digits
+console.log(sameFrequency(33445566, 34345656));// true
+console.log(sameFrequency(222, 22)); // false
