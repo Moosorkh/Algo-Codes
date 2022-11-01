@@ -79,4 +79,13 @@ class sinlgyLinkedList{
         }
         return current;
     }
+
+    set(index, val){
+        let getNode = this.get(index);
+        if(getNode){
+            getNode.val = val;
+            return true;
+        }
+        return false;
+    }
 }
