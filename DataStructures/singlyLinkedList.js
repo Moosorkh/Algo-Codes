@@ -80,10 +80,17 @@ class sinlgyLinkedList{
         return current;
     }
 
+<<<<<<< HEAD
     set(index, value){
         let getNode = this.get(index);
         if(getNode){
             getNode.value = value;
+=======
+    set(index, val){
+        let getNode = this.get(index);
+        if(getNode){
+            getNode.val = val;
+>>>>>>> 7bcb6a1e16f051323c1a5859e212c8a7914f4376
             return true;
         }
         return false;
