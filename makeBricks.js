@@ -3,7 +3,7 @@ We have:
 small bricks (1 inch each).
 big bricks (5 inches each).
 A goal length (in inches) to achieve.
-The goal is to decide if we can combine the small and big bricks to exactly reach the goal.
+The goal is to decide if we can combine the small and big bricks to exactly reach the goal
 */
 
 function makeBricks(small, big, goal) {
