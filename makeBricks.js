@@ -1,6 +1,5 @@
 /*
 We have:
-
 small bricks (1 inch each).
 big bricks (5 inches each).
 A goal length (in inches) to achieve.
