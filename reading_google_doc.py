@@ -8,6 +8,7 @@ def parse_published_google_doc(url: str):
     
     # Parse the HTML content of the document
     soup = BeautifulSoup(response.text, 'html.parser')
+    # Find all tables in the document
     tables = soup.find_all('table')
     
     # Extract the grid data from the tables
