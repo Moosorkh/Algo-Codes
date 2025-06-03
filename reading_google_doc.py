@@ -16,6 +16,7 @@ def parse_published_google_doc(url: str):
     for table in tables:
         for row in table.find_all('tr'):
             cells = [cell.get_text(strip=True) for cell in row.find_all(['td', 'th'])]
+            # Each cell should contain "x char y" format
             try:
                 x, char, y = int(cells[0]), cells[1], int(cells[2])
                 grid[(x, y)] = char
