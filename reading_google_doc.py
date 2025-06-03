@@ -10,6 +10,7 @@ def parse_published_google_doc(url: str):
     soup = BeautifulSoup(response.text, 'html.parser')
     tables = soup.find_all('table')
     
+    # Extract the grid data from the tables
     grid = {}
     for table in tables:
         for row in table.find_all('tr'):
