@@ -1,10 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 
+# This script fetches a published Google Doc containing a grid representation of a game board
 def parse_published_google_doc(url: str):
     response = requests.get(url)
     response.raise_for_status()
     
+    # Parse the HTML content of the document
     soup = BeautifulSoup(response.text, 'html.parser')
     tables = soup.find_all('table')
     
@@ -21,6 +23,7 @@ def parse_published_google_doc(url: str):
     if not grid:
         return
     
+    # Find the maximum x and y values to determine the grid size
     max_x = max(x for x, y in grid.keys())
     max_y = max(y for x, y in grid.keys())
     
