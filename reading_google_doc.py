@@ -20,7 +20,7 @@ def parse_published_google_doc(url: str):
                 grid[(x, y)] = char
             except (ValueError, IndexError):
                 continue
-    
+    # Print the grid in a readable format
     if not grid:
         return
     
