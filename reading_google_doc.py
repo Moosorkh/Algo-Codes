@@ -26,7 +26,7 @@ def parse_published_google_doc(url: str):
     if not grid:
         return
     
-    # Find the maximum x and y values to determine the grid size
+   
     max_x = max(x for x, y in grid.keys())
     max_y = max(y for x, y in grid.keys())
     
