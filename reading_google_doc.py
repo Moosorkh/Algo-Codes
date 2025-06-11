@@ -22,7 +22,7 @@ def parse_published_google_doc(url: str):
                 grid[(x, y)] = char
             except (ValueError, IndexError):
                 continue
-    # Print the grid in a readable format
+  
     if not grid:
         return
     
@@ -30,7 +30,7 @@ def parse_published_google_doc(url: str):
     max_x = max(x for x, y in grid.keys())
     max_y = max(y for x, y in grid.keys())
     
-  # Print the grid in a structured format 
+
     for y in range(max_y, -1, -1):
         line = ''
         for x in range(max_x + 1):
