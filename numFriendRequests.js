@@ -57,7 +57,7 @@ function numFriendRequests(ages) {
     }
 
     let totalRequests = 0;
-    // For each age x, calculate valid requests
+    // For each age x, calculate valid requests 
     for (let x = 1; x <= 120; x++) {
         if (freq[x] === 0) continue;
 
