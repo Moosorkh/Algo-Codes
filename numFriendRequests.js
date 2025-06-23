@@ -60,7 +60,7 @@ function numFriendRequestsBruteForce(ages) {
 
     for (let i = 0; i < ages.length; i++) {
         for (let j = 0; j < ages.length; j++) {
-            if (i === j) continue; // Don't send request to self
+            if (i === j) continue; // Don't send request
 
             const senderAge = ages[i];
             const receiverAge = ages[j];
