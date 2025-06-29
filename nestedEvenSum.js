@@ -152,7 +152,7 @@ function nestedEvenSumRobust(obj) {
   return nestedEvenSum(obj);
 }
 
-// Version that can filter by custom condition
+
 function nestedNumberSum(obj, condition = (num) => num % 2 === 0) {
   if (obj === null || typeof obj !== 'object') {
     return 0;
