@@ -109,7 +109,7 @@ function nestedEvenSumWithTracking(obj, path = '') {
   };
 }
 
-// Iterative version using a stack (avoids recursion depth limits)
+
 function nestedEvenSumIterative(obj) {
   if (obj === null || typeof obj !== 'object') {
     return 0;
