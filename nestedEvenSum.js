@@ -2,7 +2,7 @@
 
 
 function nestedEvenSum(obj) {
-  // Handle null or non-object inputs
+
   if (obj === null || typeof obj !== 'object') {
     return 0;
   }
