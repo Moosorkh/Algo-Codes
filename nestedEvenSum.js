@@ -1,6 +1,6 @@
 // Function that returns the sum of all even numbers in an object (including nested objects)
 
-// Improved version with better null handling and clearer logic
+
 function nestedEvenSum(obj) {
   // Handle null or non-object inputs
   if (obj === null || typeof obj !== 'object') {
