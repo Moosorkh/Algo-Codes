@@ -221,10 +221,10 @@ console.log('Tracking result:', tracked);
 
 console.log('\n=== CUSTOM CONDITIONS ===');
 console.log('Sum of odd numbers:', nestedNumberSum(obj2, num => num % 2 !== 0)); 
-console.log('Sum of numbers > 2:', nestedNumberSum(obj2, num => num > 2)); // Numbers greater than 2
+console.log('Sum of numbers > 2:', nestedNumberSum(obj2, num => num > 2)); 
 console.log('Sum of negative numbers:', nestedNumberSum({
   a: -2, b: { c: -4, d: 5 }, e: -6
-}, num => num < 0)); // -12
+}, num => num < 0)); 
 
 console.log('\n=== EDGE CASES ===');
 console.log('Null object:', nestedEvenSum(null)); // 0
