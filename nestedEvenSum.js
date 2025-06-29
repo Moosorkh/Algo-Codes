@@ -23,7 +23,7 @@ function nestedEvenSum(obj) {
   return sum;
 }
 
-// Alternative implementation using Object.values()
+
 function nestedEvenSumModern(obj) {
   if (obj === null || typeof obj !== 'object') {
     return 0;
