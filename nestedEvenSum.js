@@ -229,7 +229,7 @@ console.log('Sum of negative numbers:', nestedNumberSum({
 console.log('\n=== EDGE CASES ===');
 console.log('Null object:', nestedEvenSum(null)); 
 console.log('Empty object:', nestedEvenSum({})); // 0
-console.log('No even numbers:', nestedEvenSum({ a: 1, b: { c: 3, d: 5 } })); // 0
+console.log('No even numbers:', nestedEvenSum({ a: 1, b: { c: 3, d: 5 } }));
 console.log('All even numbers:', nestedEvenSum({ a: 2, b: { c: 4, d: 6 } })); // 12
 
 console.log('\n=== SPECIAL VALUES ===');
