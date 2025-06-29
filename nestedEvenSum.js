@@ -173,7 +173,7 @@ function nestedNumberSum(obj, condition = (num) => num % 2 === 0) {
   return sum;
 }
 
-// Test objects
+
 const obj1 = {
   outer: 2,
   obj: {
