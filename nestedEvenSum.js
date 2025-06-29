@@ -7,7 +7,7 @@ function nestedEvenSum(obj) {
     return 0;
   }
 
-  // Handle arrays by treating them as objects
+ 
   let sum = 0;
 
   for (const key in obj) {
