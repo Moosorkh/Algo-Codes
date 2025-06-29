@@ -195,7 +195,7 @@ const obj2 = {
 };
 
 console.log('=== BASIC TESTS ===');
-console.log('nestedEvenSum(obj1):', nestedEvenSum(obj1)); // 6
+console.log('nestedEvenSum(obj1):', nestedEvenSum(obj1)); 
 console.log('nestedEvenSum(obj2):', nestedEvenSum(obj2)); // 10
 
 console.log('\n=== ALGORITHM COMPARISON ===');
