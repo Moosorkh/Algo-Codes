@@ -213,7 +213,7 @@ const objWithArrays = {
     }
   }
 };
-console.log('With arrays:', nestedEvenSumWithArrays(objWithArrays)); // 2+4+6+8+10 = 30
+console.log('With arrays:', nestedEvenSumWithArrays(objWithArrays)); 
 
 console.log('\n=== WITH TRACKING ===');
 const tracked = nestedEvenSumWithTracking(obj2);
