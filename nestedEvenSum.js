@@ -40,7 +40,7 @@ function nestedEvenSumModern(obj) {
   }, 0);
 }
 
-// Version that also handles arrays recursively
+
 function nestedEvenSumWithArrays(obj) {
   if (obj === null || typeof obj !== 'object') {
     return 0;
