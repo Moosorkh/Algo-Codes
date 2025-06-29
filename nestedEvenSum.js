@@ -71,7 +71,7 @@ function nestedEvenSumWithArrays(obj) {
   return sum;
 }
 
-// Version that tracks which even numbers were found
+
 function nestedEvenSumWithTracking(obj, path = '') {
   const evenNumbers = [];
 
