@@ -139,7 +139,7 @@ function nestedEvenSumIterative(obj) {
   return sum;
 }
 
-// Robust version with input validation
+
 function nestedEvenSumRobust(obj) {
   if (obj === undefined) {
     throw new Error('Input cannot be undefined');
