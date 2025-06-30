@@ -236,7 +236,7 @@ console.log('\n=== SPECIAL VALUES ===');
 console.log('With special numbers:', nestedEvenSum({
   zero: 0,
   negative: -2,
-  float: 2.5, // Not an integer, but even when truncated
+  float: 2.5,
   infinity: Infinity,
   nan: NaN
 }));
